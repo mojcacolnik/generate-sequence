@@ -12,7 +12,7 @@ npm i sequence-generator
 ```js
 const generateSequence = require('sequence-generator')
 
-console.log(3, 'la') // logs [ 'la', 'la', 'la' ]
+console.log(generateSequence(3, 'la')) // logs [ 'la', 'la', 'la' ]
 
 console.log(generateSequence(10, (x, index) => index+1)) // logs [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 
