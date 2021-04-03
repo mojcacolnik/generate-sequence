@@ -3,14 +3,8 @@ const generateSequence = (n, pattern) => {
     throw Error('n represents the array length, must be an integer')
   }
 
-  let array = new Array(n).fill(pattern)
-  if (typeof pattern == 'function') {
-   return array.map(pattern)
-  } else {
-    return array
-  }
+  const array = new Array(n).fill(pattern)
+  return (typeof pattern === 'function') ? array.map(pattern) : array
 }
 
-
-
-module.exports = generateSequence;
+module.exports = generateSequence
