@@ -18,5 +18,5 @@ test('Array with 3 empty elements', () => {
 })
 
 test('Invalid input to function', () => {
-    expect(generateSequence('only string input')).toThrow(Error)
+    expect(() => {generateSequence('only string input')}).toThrow(Error)
 })
