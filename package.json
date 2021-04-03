@@ -1,0 +1,22 @@
+{
+  "name": "sequence-generator",
+  "version": "1.0.0",
+  "description": "A small npm library to easily generate arrays of a chosen length and sequence pattern.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mojcacolnik/sequence-generator.git"
+  },
+  "author": "Mojca Colnik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mojcacolnik/sequence-generator/issues"
+  },
+  "homepage": "https://github.com/mojcacolnik/sequence-generator#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
