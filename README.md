@@ -1,25 +1,25 @@
 [![Coverage Status](https://coveralls.io/repos/github/mojcacolnik/sequence-generator/badge.svg?branch=main)](https://coveralls.io/github/mojcacolnik/sequence-generator?branch=main) [![Build Status](https://travis-ci.com/mojcacolnik/sequence-generator.svg?branch=main)](https://travis-ci.com/mojcacolnik/sequence-generator)
 
-# sequence-generator
+# generate-sequence
 
 A small npm library to easily generate arrays of a chosen length and sequence pattern. Inspired by a codewars kata.
 
 # Installation
 
 ```sh
-npm i sequence-generator
+npm i generate-sequence
 ```
 
 # Usage
 
 ```js
-const generateSequence = require('sequence-generator')
+const generateSequence = require('generate-sequence')
 
 console.log(generateSequence(3, 'la')) // logs [ 'la', 'la', 'la' ]
 
-console.log(generateSequence(10, (x, index) => index+1)) // logs [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+console.log(generateSequence(10, (x, index) => index + 1)) // logs [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 
-console.log(generateSequence(6, (x, index) => index%3)) // logs [ 0, 1, 2, 0, 1, 2 ]
+console.log(generateSequence(6, (x, index) => index % 3)) // logs [ 0, 1, 2, 0, 1, 2 ]
 ```
 
 # LICENSE
