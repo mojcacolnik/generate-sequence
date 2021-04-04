@@ -1,6 +1,4 @@
-[![Coverage Status](https://coveralls.io/repos/github/mojcacolnik/sequence-generator/badge.svg?branch=main)](https://coveralls.io/github/mojcacolnik/sequence-generator?branch=main)
-
-[![Build Status](https://travis-ci.com/mojcacolnik/sequence-generator.svg?branch=main)](https://travis-ci.com/mojcacolnik/sequence-generator)
+[![Coverage Status](https://coveralls.io/repos/github/mojcacolnik/sequence-generator/badge.svg?branch=main)](https://coveralls.io/github/mojcacolnik/sequence-generator?branch=main) [![Build Status](https://travis-ci.com/mojcacolnik/sequence-generator.svg?branch=main)](https://travis-ci.com/mojcacolnik/sequence-generator)
 
 # sequence-generator
 
